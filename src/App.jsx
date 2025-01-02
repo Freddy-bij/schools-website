@@ -1,10 +1,18 @@
+import { BrowserRouter, Route, Routes } from "react-router"
+import Home from "./Pages/Home"
+import CountriesUn from "./Pages/CountriesUn"
 
 
 const App = () => {
   return (
-    <div>
-      <h1>this is a schools website</h1>
-      </div>
+    <>
+       <BrowserRouter>
+       <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/countries" element={<CountriesUn/>}/>
+       </Routes>
+       </BrowserRouter>
+      </>
   )
 }
 
