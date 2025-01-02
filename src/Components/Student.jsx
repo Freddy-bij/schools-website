@@ -11,7 +11,7 @@ const Student = () => {
             <h1 className="pb-4">Preparing Students</h1>
             <h2 className="pb-4">for Successful Futurs</h2>
              </div>
-           <Link to="/countries"><button className="bg-black text-white py-5 px-5 hover:bg-white hover:text-black rounded-xl uppercase text-2xl mt-8">find your favorite country</button></Link> 
+           <Link to="/countries"><button className="bg-white text-black font-bold py-5 px-5 hover:bg-blue-200 hover:text-white hover:font-bold rounded-xl uppercase text-2xl mt-8">find your favorite country</button></Link> 
        </div>
       
     </div>
