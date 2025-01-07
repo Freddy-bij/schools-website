@@ -1,9 +1,10 @@
+import Navbar from "./Components/Navbar"
 
 
 const App = () => {
   return (
     <div>
-      <h1>this is a schools website</h1>
+      <Navbar/>
       </div>
   )
 }
